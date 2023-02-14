@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
- @import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap');
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
+
 
 *{
     margin: 0px;
@@ -12,7 +9,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(66, 65, 65);
     
 }
 
@@ -20,6 +17,8 @@ header{
     background-color: BLACK;
     color: white;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 header > h1 {
